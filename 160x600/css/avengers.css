@@ -88,7 +88,9 @@
 }
 
 .link:hover {
-	opacity: 0.5;
+	opacity: 1;
+	-webkit-filter: drop-shadow(1px 1px 0 yellow) drop-shadow(-1px -1px 0 yellow);
+  	filter: drop-shadow(1px 1px 0 yellow) drop-shadow(-1px -1px 0 yellow);
 
 }
 a:-webkit-any-link{
